@@ -8,8 +8,10 @@
 		$dir_count = count($list);
 		for($c = 0;$c<$dir_count;$c++)
 		{
+			$var = $list[$c];
 			if($c == 0 || $c == 1) continue;
-			if($list[$c] == 'index.php') continue;
+			if($var == 'index.php') continue;
+			if($var[0] == '.') continue;
 			echo '<a href="'.$list[$c].'">'.$list[$c].'</a><br>';
 		}
 		?>
