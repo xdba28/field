@@ -1,0 +1,7 @@
+{
+	"name": "field",
+	"version": "1.0.0",
+	"dependencies": {
+		"jest": "^22.4.3"
+	}
+}
