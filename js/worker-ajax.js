@@ -13,7 +13,7 @@ function list_student()
 		}
 		else
 		{
-			console.log(xhttp.getAllResponseHeaders());
+			
 		}
   	};
 	xhttp.open('POST', 'ajax-php/list-student.php', true);
