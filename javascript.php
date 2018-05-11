@@ -86,7 +86,6 @@
 			worker.onmessage = function(event)
 			{
 				_('stu').innerHTML += event.data + '<br>';
-				// _('stu').innerHTML += '<br>';
 			}
 		});
 
