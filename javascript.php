@@ -95,6 +95,7 @@
 			worker = undefined;	
 		})
 
+		// template string
 		_('1').innerHTML += `<br>C = ${c} and B = ${b} when added is equal to ${c + b}`;
 		</script>
 
