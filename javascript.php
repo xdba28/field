@@ -39,7 +39,7 @@
 		const a = [0, 1, 0, 3, 4, 0, 0, 0];
 		_('1').innerHTML += a.filter(isZero).length + '<br>';
 
-		const getSalutation = (hour) => hour < 12 ?
+		const getSalutation = hour => hour < 12 ?
 			"Good Morning" : "Good Afternoon";
 		_('1').innerHTML += getSalutation(10) + '<br>';
 
