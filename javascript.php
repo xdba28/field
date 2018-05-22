@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<script src="js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css/DnD-style.css">
 	</head>
 	<body>
 		<div id="1">
@@ -26,9 +26,18 @@
 		<!-- 2asd -->
 		<?php endif ?>
 
+		<div class="empty">
+			<div class="fill" draggable="true"></div>
+		</div>
+		<div class="empty"></div>
+		<div class="empty"></div>
+		<div class="empty"></div>
+		<div class="empty"></div>
 
 	</body>
-
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/drag-n-drop.js"></script>
+	
 	<script>
 		const _ = (id) => document.getElementById(id);
 
@@ -97,6 +106,5 @@
 
 		// template string
 		_('1').innerHTML += `<br>C = ${c} and B = ${b} when added is equal to ${c + b}`;
-		</script>
-
+	</script>
 </html>

@@ -1,11 +1,11 @@
-{
-	"name": "field",
-	"version": "1.0.0",
-	"dependencies": {
-		"jest": "^22.4.3",
-		"tui-calendar": "^1.1.0"
-	},
-	"scripts": {
-		"test": "jest"
-	}
-}
+// {
+// 	"name": "field",
+// 	"version": "1.0.0",
+// 	"dependencies": {
+// 		"jest": "^22.4.3",
+// 		"tui-calendar": "^1.1.0"
+// 	},
+// 	"scripts": {
+// 		"test": "jest"
+// 	}
+// }
